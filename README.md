@@ -3,7 +3,8 @@
 # Project Name : AWESOME BOOK WEBSITE
 
 > Description the project.
-This project is a book website. I have used E6 to build this project and main functionalities are adding and removing books. The information is then retained in local storage.
+This is my awesome books page built using ES6, it has classes, modules, arrow functions and a date function updated from Luxon library.
+
 
 ## Built With
 
@@ -36,6 +37,7 @@ cd awesome-books
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+any thanks should go to Microverse Organisation for this ReadMe template and the students the help they rendered during the development of this webpage.
 
 ## Show your support
 
