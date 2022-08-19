@@ -2,7 +2,7 @@ const booksContainer = document.getElementById('books-container');
 
 const addBooktoHTML = (title, author) => {
   const bookHTML = document.createElement('div');
-  bookHTML.classList.add('book');
+  bookHTML.classList.add('newBook');
   bookHTML.innerHTML = `
         <p class="title">"${title}" By</p>
         <p class="author">${author}</p>
@@ -12,7 +12,7 @@ const addBooktoHTML = (title, author) => {
 
   let bookNodes = Array.from(booksContainer.children);
   if (bookNodes.indexOf(bookHTML) % 2 === 0) {
-    bookHTML.classList.add('gray');
+    bookHTML.classList.add('grayStrip');
   }
 
   bookHTML.children[2].addEventListener('click', () => {
