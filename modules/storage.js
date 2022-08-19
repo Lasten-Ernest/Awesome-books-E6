@@ -1,5 +1,5 @@
-import StorageAvailable from './storage-available.js';
-import addBooktoHTML from './add-to-html.js';
+import StorageAvailable from './storage-available';
+import addBooktoHTML from './add-to-html';
 
 const getStorage = () => {
   if (new StorageAvailable('localStorage')) {

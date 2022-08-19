@@ -58,7 +58,7 @@ header ul li:nth-child(1) {
   margin-bottom: 12px;
 }
 
-.book {
+.newBook {
   display: flex;
   align-items: center;
   font-size: 18px;
@@ -70,8 +70,8 @@ header ul li:nth-child(1) {
   margin-left: 5px;
 }
 
-.gray {
-  background-color: #d4d1d1;
+.grayStrip {
+  background-color: #bbb6b6;
 }
 
 .remove-btn {

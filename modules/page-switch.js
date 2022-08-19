@@ -22,7 +22,7 @@ const pageSwitch = () => {
         navLinks[2].classList.remove('blue');
       } else {
         listPage.classList.add('hide');
-        addPage.classList.add('hide');
+        addPage.classList.add('hide');  
         contactPage.classList.remove('hide');
         navLinks[0].classList.remove('blue');
         navLinks[1].classList.remove('blue');
